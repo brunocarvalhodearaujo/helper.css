@@ -1,0 +1,64 @@
+// padding e margin = p-{t,b,r,l}-{value = 5,10,15...100}
+@each $type in ('margin', 'padding', 'border'){
+  .no-#{$type}{
+    #{$type}: 0;
+  }
+  @each $position in ('top', 'bottom', 'right', 'left'){
+    @for $i from 1 through 20 {
+      $counter: $i * 5;
+      .#{str-slice($type, 1, 1)}-#{str-slice($position, 1, 1)}-#{$counter} {
+        #{$type}-#{$position}: #{$counter}px;
+      }
+    }
+  }
+}
+
+.center {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@each $x in ('top', 'bottom') {
+  @each $y in ('right', 'left') {
+    .#{$x}-#{$y} {
+      position: absolute!important;
+      #{$x}: 0px;
+      #{$y}: 0px;
+    }
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.scrollable {
+  overflow-y:auto;
+}
+
+.center-margin {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hide {
+  display: none !important;
+}
+
+.inline {
+  display:inline-block;
+}
+
+.bg-blur {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(214, 214, 214, 0.4);
+}

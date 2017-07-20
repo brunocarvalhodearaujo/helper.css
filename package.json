@@ -1,0 +1,13 @@
+{
+  "name": "helper.css",
+  "version": "0.0.0",
+  "description": "css classes allow you to build your custom layout without touching any CSS code",
+  "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
+  "private": true,
+  "scripts": {
+    "preversion": "node-sass --output-style compressed src/main.scss dist/helper.css && git add ."
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

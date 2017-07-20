@@ -1,0 +1,30 @@
+// border
+@for $i from 1 through 20 {
+  $counter: $i * 5;
+  .b-a-#{$counter} {
+    @each $position in ('top', 'bottom', 'right', 'left') {
+      border-#{$position}: #{$counter}px;
+    }
+  }
+}
+
+$sizes: ('sm', 'md', 'lg');
+
+.no-b-rad {
+  border-radius: 0px;
+}
+
+@each $size in $sizes {
+  $width: (index($sizes, $size) *2) + 1;
+  .b-rad-#{$size} {
+    border-radius: #{$width}px;
+  }
+}
+
+.b-dashed {
+  border-style: dashed;
+}
+
+.b-thick {
+  border-width: 2px;
+}

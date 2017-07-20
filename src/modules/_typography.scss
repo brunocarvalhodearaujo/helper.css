@@ -1,0 +1,23 @@
+@for $i from 1 through 20 {
+  $number: $i * 5;
+  .fs-#{$number} {
+    font-size: #{$number}px;
+    font-size: #{$number / 16}rem;
+  }
+}
+
+.break-word {
+  overflow-wrap: break-word;
+}
+
+.light {
+  font-weight: 300!important;
+}
+
+.semi-bold {
+  font-weight: 500!important;
+}
+
+.bold {
+  font-weight: bold!important;
+}
