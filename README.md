@@ -150,6 +150,6 @@ CLASS NAME | DESCRIPTION
 `scrollable` | adds `overflow-y:auto`
 `center-margin` | Adds `margin-left:auto; margin-right:auto`. Useful when center aligning any div
 `hide` | Hides any element
-`inline` | Adds display:inline-block
+`inline` | Adds `display:inline-block`
 `break-word`| Adds breaking line word
 `bg-blur`| Adds gausian blur as background color
