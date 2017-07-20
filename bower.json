@@ -1,0 +1,18 @@
+{
+  "name": "helper.css",
+  "description": "css classes allow you to build your custom layout without touching any CSS code",
+  "main": "",
+  "authors": [
+    "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/brunocarvalhodearaujo/helper.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
