@@ -5,7 +5,8 @@
   "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
   "private": true,
   "scripts": {
-    "preversion": "node-sass --output-style compressed src/main.scss dist/helper.css && git add ."
+    "build": "node-sass --output-style compressed src/main.scss dist/helper.css",
+    "preversion": "npm run build && git add ."
   },
   "devDependencies": {
     "node-sass": "^4.5.3"

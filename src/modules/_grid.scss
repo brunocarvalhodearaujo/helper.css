@@ -3,9 +3,16 @@
   .no-#{$type}{
     #{$type}: 0;
   }
-  @each $position in ('top', 'bottom', 'right', 'left'){
-    @for $i from 1 through 20 {
-      $counter: $i * 5;
+  @for $i from 1 through 20 {
+    $counter: $i * 5;
+
+    @if $type != 'border' {
+      .#{str-slice($type, 1, 1)}-#{$counter} {
+        #{$type}: #{$counter}px;
+      }
+    }
+
+    @each $position in ('top', 'bottom', 'right', 'left'){
       .#{str-slice($type, 1, 1)}-#{str-slice($position, 1, 1)}-#{$counter} {
         #{$type}-#{$position}: #{$counter}px;
       }
@@ -13,6 +20,7 @@
   }
 }
 
+// position
 .center {
   position: absolute !important;
   top: 0;

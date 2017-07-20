@@ -100,6 +100,7 @@ that you want to be absolute to have relative positioning
 ````html
 <div class="relative" style="height:300px">
   <!-- Equivalent to "pull-up" -->
+  <div class="center bg-master-light text-center padding-20">center</div>
   <div class="top-left bg-master-light text-center padding-20">Top-left</div>
   <!-- Equivalent to "pull-bottom" -->
   <div class="bottom-left bg-master-light text-center padding-20">Bottom-left</div>
@@ -107,6 +108,9 @@ that you want to be absolute to have relative positioning
   <div class="bottom-right bg-master-light text-center padding-20">Bottom-right</div>
 </div>
 ````
+
+it is also possible to mix two or more classes. ex: Mixing top-left top-right will produce the following CSS styling
+`top:0; left:0; right:0`
 
 ## Font Size
 
@@ -143,7 +147,7 @@ CLASS NAME | DESCRIPTION
 |----------|------------|
 `full-width` | Spans the element to have 100% width of the parent
 `full-height` | Spans the element to have 100% height of the parent
-`scrollable` | dds overflow-y:auto
+`scrollable` | adds `overflow-y:auto`
 `center-margin` | Adds `margin-left:auto; margin-right:auto`. Useful when center aligning any div
 `hide` | Hides any element
 `inline` | Adds display:inline-block
