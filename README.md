@@ -1,5 +1,5 @@
-Helper.css
-========
+helper.css
+==========
 
 helper css classes allow you to build your custom layout without touching any CSS code
 
@@ -35,7 +35,6 @@ To remove margin from a HTML element add the class `no-margin`
   I have a 10px margin in bottom
 </div>
 `````
-
 
 ## Padding
 
@@ -100,12 +99,12 @@ that you want to be absolute to have relative positioning
 
 ````html
 <div class="relative" style="height:300px">
-    <!-- Equivalent to "pull-up" -->
-    <div class="top-left bg-master-light text-center padding-20">Top-left</div>
-    <!-- Equivalent to "pull-bottom" -->
-    <div class="bottom-left bg-master-light text-center padding-20">Bottom-left</div>
-    <div class="top-right bg-master-light text-center padding-20">Top-right</div>
-    <div class="bottom-right bg-master-light text-center padding-20">Bottom-right</div>
+  <!-- Equivalent to "pull-up" -->
+  <div class="top-left bg-master-light text-center padding-20">Top-left</div>
+  <!-- Equivalent to "pull-bottom" -->
+  <div class="bottom-left bg-master-light text-center padding-20">Bottom-left</div>
+  <div class="top-right bg-master-light text-center padding-20">Top-right</div>
+  <div class="bottom-right bg-master-light text-center padding-20">Bottom-right</div>
 </div>
 ````
 
@@ -149,3 +148,4 @@ CLASS NAME | DESCRIPTION
 `hide` | Hides any element
 `inline` | Adds display:inline-block
 `break-word`| Adds breaking line word
+`bg-blur`| Adds gausian blur as background color
