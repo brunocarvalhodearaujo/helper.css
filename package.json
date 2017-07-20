@@ -1,6 +1,6 @@
 {
   "name": "helper.css",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "css classes allow you to build your custom layout without touching any CSS code",
   "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
   "private": true,
