@@ -1,11 +1,12 @@
 {
   "name": "helper.css",
   "version": "0.0.3",
+  "main": "dist/helper.css",
   "description": "css classes allow you to build your custom layout without touching any CSS code",
   "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
   "private": true,
   "scripts": {
-    "build": "node-sass --output-style compressed src/main.scss dist/helper.css",
+    "prepublish": "node-sass --output-style compressed src/main.scss dist/helper.css",
     "preversion": "npm run build && git add ."
   },
   "devDependencies": {
