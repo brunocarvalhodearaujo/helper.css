@@ -1,5 +1,4 @@
-helper.css
-==========
+# helper.css
 
 helper css classes allow you to build your custom layout without touching any CSS code
 
@@ -153,3 +152,5 @@ CLASS NAME | DESCRIPTION
 `inline` | Adds `display:inline-block`
 `break-word`| Adds breaking line word
 `bg-blur`| Adds gausian blur as background color
+`hint-text` | add more opacity into element
+`all-caps` | capitalize all strings
