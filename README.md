@@ -3,7 +3,6 @@
 [![npm version](https://badge.fury.io/js/helper.css.svg)](http://badge.fury.io/js/helper.css)
 [![License](https://img.shields.io/npm/l/helper.css.svg)](https://www.npmjs.com/package/helper.css) 
 [![devDependency Status](https://david-dm.org/brunocarvalhodearaujo/helper.css/dev-status.svg?style=flat-square)](https://david-dm.org/brunocarvalhodearaujo/helper.css#info=devDependencies)
-[![npm](https://img.shields.io/npm/dt/helper.css.svg)]()
 
 helper css classes allow you to build your custom layout without touching any CSS code
 
