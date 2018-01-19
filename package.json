@@ -1,6 +1,6 @@
 {
   "name": "helper.css",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/helper.min.css",
   "description": "css classes allow you to build your custom layout without touching any CSS code",
   "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
