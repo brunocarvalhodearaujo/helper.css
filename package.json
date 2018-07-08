@@ -13,9 +13,12 @@
     "url": "https://github.com/brunocarvalhodearaujo/helper.css/issues"
   },
   "scripts": {
-    "prepublish": "node-sass --output-style compressed src/main.scss dist/helper.css"
+    "prepublish": "gulp"
   },
   "devDependencies": {
-    "node-sass": "^4.7.2"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^4.0.1"
   }
 }

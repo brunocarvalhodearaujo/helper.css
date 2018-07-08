@@ -1,8 +1,10 @@
-@for $i from 1 through 20 {
+@for $i from 1 through 10 {
   $number: $i * 5;
-  .fs-#{$number} {
-    font-size: #{$number}px;
-    font-size: #{$number / 16}rem;
+  @if $number >= 5 {
+    .fs-#{$number} {
+      font-size: #{$number}px;
+      font-size: #{$number / 16}rem;
+    }
   }
 }
 

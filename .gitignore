@@ -4,6 +4,7 @@
 node_modules
 bower_components
 .vscode
+dist/
 
 # files
 *.DS_Store
