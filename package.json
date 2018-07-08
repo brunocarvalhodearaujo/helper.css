@@ -13,7 +13,7 @@
     "url": "https://github.com/brunocarvalhodearaujo/helper.css/issues"
   },
   "scripts": {
-    "prepublish": "gulp"
+    "preversion": "gulp"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
